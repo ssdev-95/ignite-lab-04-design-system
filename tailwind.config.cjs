@@ -9,13 +9,25 @@ module.exports = {
 			xl: 32
 		},
 		colors: {
-			'gray-900': '#121214',
-			'gray-800': '#1b1b1b',
-			'gray-400': '#6a6a6a',
-			'gray-100': '#f0f2f5',
-			'green-400': '#41b883',
-			'green-300': '#86efac',
-			'red-500': '#dc1637'
+			white: '#fff',
+			black: '#000',
+			transparent: 'transparent',
+	
+			gray: {
+				'900': '#121214',
+				'800': '#1b1b1b',
+				'400': '#6a6a6a',
+				'100': '#f0f2f5'
+			},
+
+			green: {
+				'400': '#41b883',
+				'300': '#86efac'
+			},
+
+			red: {
+				'500': '#dc1637'
+			}
 		},
     extend: {
 			fontFamily: {
