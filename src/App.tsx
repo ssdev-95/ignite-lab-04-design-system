@@ -1,9 +1,9 @@
-import {Headings} from "./components/headings";
+import { Header } from "./components/header";
 
 export function App() {
   return (
 	  <>
-		  <Headings />
+		  <Header />
 		</>
 	)
 }
