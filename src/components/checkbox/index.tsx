@@ -19,7 +19,7 @@ export function Checkbox({ children }:CheckboxProps) {
 				</RCheckbox.CheckboxIndicator>
 	  	</RCheckbox.Root>
 
-			<Text size="small">{children}</Text>
+			<Text size="medium">{children}</Text>
 		</label>
 	)
 }

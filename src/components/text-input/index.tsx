@@ -34,7 +34,7 @@ interface TextInputInputProps extends InputHTMLAttributes<HTMLInputElement> {}
 function TextInputInput(props: TextInputInputProps) {
   return (
 	  <input
-		  className="bg-transparent flex-1 group focus:outline-none hover:outline-none text-gray-100 placeholder:gray-300 text-sm"
+		  className="bg-transparent flex-1 group focus:outline-none hover:outline-none text-gray-100 placeholder:gray-300 text-md"
 		  {...props}
 		/>
 	)

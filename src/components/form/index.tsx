@@ -2,6 +2,7 @@ import { useState, FormHTMLAttributes } from 'react'
 import { Envelope, Eye, EyeClosed } from 'phosphor-react'
 
 import { TextInput } from '../text-input'
+import { Text } from '../text'
 import { Checkbox } from '../checkbox'
 import { Button } from '../button'
 
@@ -20,11 +21,11 @@ export function Form(props:FormProps) {
 			{...props}
 		>
 		  <div className="w-full">
-			  <p className="mb-2">Email</p>
+			  <Text size="large">Email</Text>
 
   		  <TextInput.Root>
 				  <TextInput.Icon>
-					  <Envelope />
+					  <Envelope className="text-gray-400" />
 					</TextInput.Icon>
 	  		  <TextInput.Input
 		  		  placeholder="salompas_senpai@lab.dev"
@@ -34,7 +35,7 @@ export function Form(props:FormProps) {
 			</div>
 
 			<div className="w-full">
-			  <p className="mb-2">Email</p>
+			  <Text size="large">Email</Text>
 
 				<TextInput.Root>
 				  <TextInput.Icon>

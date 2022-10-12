@@ -8,7 +8,7 @@ export function Button({
 
 	return (
 	  <button
-		  className="w-full text-gray-100 text-center font-sans bg-green-400 hover:bg-green-300 rounded"
+		  className="w-full text-gray-100 text-center font-sans bg-green-400 hover:bg-green-300 rounded p-3"
 			{...props}
 		>
 		  {children}
