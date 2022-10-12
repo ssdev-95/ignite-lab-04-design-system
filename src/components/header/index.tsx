@@ -18,7 +18,7 @@ export function Header() {
 				<strong className="font-bold">Lab</strong>
 			</Heading>
 
-			<Text asChild size="small">
+			<Text asChild size="medium">
   			<p className="-mt-3">
 	  		  Log in and let's go codar
 		  	</p>

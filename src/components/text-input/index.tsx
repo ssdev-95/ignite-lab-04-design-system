@@ -7,7 +7,7 @@ export interface TextInputRootProps {
 
 function TextInputRoot({children}:TextInputRootProps) {
   return (
-	  <label className="w-full h-12 focus-within:ring-2 focus-within:ring-green-400 bg-gray-800 py-4 px-3 flex items-center gap-3 rounded">
+	  <label className="w-full h-12 focus-within:ring-2 focus-within:ring-green-400 bg-gray-800 py-4 px-3 flex items-center gap-3 rounded mt-1">
 		  { children }
 		</label>
 	)

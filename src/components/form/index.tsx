@@ -17,7 +17,7 @@ export function Form(props:FormProps) {
 
   return (
 	  <form
-		  className="w-[400px] max-w-[90vw] flex flex-col gap-2"
+		  className="w-[400px] max-w-[90vw] flex flex-col gap-3"
 			{...props}
 		>
 		  <div className="w-full">

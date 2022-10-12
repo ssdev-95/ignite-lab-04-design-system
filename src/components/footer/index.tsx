@@ -5,7 +5,7 @@ export interface FooterProps {}
 export function Footer(props:FooterProps) {
   return (
 	  <footer
-		  className="w-[400px] max-w-90vw flex items-center justify-between"
+		  className="w-[400px] max-w-[90vw] flex items-center justify-between"
 			{...props}
 		>
 		  <Link href="#" >
