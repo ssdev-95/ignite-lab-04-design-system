@@ -6,6 +6,13 @@ export default {
   component: Button,
 	args: {
 		children: 'Salame é bom'
+	},
+	argTypes: {
+	  children: {
+		  table: {
+			  disable: true
+			}
+		}
 	}
 } as Meta<ButtonProps>
 
