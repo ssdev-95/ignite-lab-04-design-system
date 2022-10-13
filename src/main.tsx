@@ -8,12 +8,12 @@ import eruda from 'eruda'
 import erudaDOM from 'eruda-dom'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
 )
 
-if(window && window.innerWidth < 1024 && import.meta.env.DEV) {
-  eruda.init()
-	eruda.add(erudaDOM)
+if (window && window.innerWidth < 1024 && import.meta.env.DEV) {
+    eruda.init()
+    eruda.add(erudaDOM)
 }
