@@ -38,6 +38,8 @@ $ yarn && yarn dev
 $ npm install && npm run dev
 ```
 
+> PS: Must have a LTS version of node setup, v16.x.x where used in development.
+
 [Design system.](https://www.figma.com/file/zxYg1Awt3WNP3q3KSUMO8i/DesignSystem-IgniteLab)  ⏪
 
 [Docs Made With Storybook.](https://xsallus.github.io/ignite-lab-04-design-system/)  ⏪
