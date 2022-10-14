@@ -1,13 +1,5 @@
-import { Header } from './components/header'
-import { Form } from './components/form'
-import { Footer } from './components/footer'
+import { Signin } from './pages/signin'
 
 export function App() {
-    return (
-        <>
-            <Header />
-            <Form />
-            <Footer />
-        </>
-    )
+    return <Signin />
 }
