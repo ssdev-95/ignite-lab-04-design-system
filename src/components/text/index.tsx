@@ -9,17 +9,17 @@ export interface TextProps {
 }
 
 export function Text({ size = 'small', asChild = false, children }: TextProps) {
-    const Component = asChild ? Slot : 'span'
+  const Component = asChild ? Slot : 'span'
 
-    return (
-        <Component
-            className={clsx('text-gray-400 font-sans', {
-                'text-sm': size === 'small',
-                'text-md': size === 'medium',
-                'text-lg': size === 'large',
-            })}
-        >
-            {children}
-        </Component>
-    )
+  return (
+    <Component
+      className={clsx('text-gray-400 font-sans', {
+        'text-sm': size === 'small',
+        'text-md': size === 'medium',
+        'text-lg': size === 'large',
+      })}
+    >
+      {children}
+    </Component>
+  )
 }
