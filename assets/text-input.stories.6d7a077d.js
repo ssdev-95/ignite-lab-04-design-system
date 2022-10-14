@@ -1,0 +1,2 @@
+import{T as t,E as o}from"./index.fd86c6e9.js";import{j as e}from"./jsx-runtime.071fece0.js";import"./index.d2eeb8af.js";import"./iframe.50af01e6.js";import"./IconBase.esm.d2d219f5.js";import"./index.module.0eb3453a.js";const i={title:"Components/TextInput",component:t.Root,args:{children:[e(t.Icon,{children:e(o,{className:"text-gray-400"})}),e(t.Input,{placeholder:"Salaminho"})]},argTypes:{children:{table:{disable:!0}}}},m={},c=["Default"];export{m as Default,c as __namedExportsOrder,i as default};
+//# sourceMappingURL=text-input.stories.6d7a077d.js.map
