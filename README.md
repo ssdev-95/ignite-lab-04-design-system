@@ -18,11 +18,11 @@ A design system made entirely in figma, and developed using
 
 - [x] GitHub Pages
 
-- [ ] Unity Tests
+- [x] Unity Tests
 
 ## Features
 
-- [ ] None right now, just UI and design system.
+- [ ] None right now, only UI and Design System
 
 ## How to run locally
 
